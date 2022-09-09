@@ -22,7 +22,7 @@
         android:layout_width="105dp"
         android:layout_height="52dp"
         android:layout_marginTop="364dp"
-        android:text="Button"
+        android:text="Go!"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,9 +35,9 @@
         android:layout_marginStart="100dp"
         android:layout_marginBottom="436dp"
         android:ems="10"
+        android:hint="What is your name, user?"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
