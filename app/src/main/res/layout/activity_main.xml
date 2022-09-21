@@ -13,7 +13,7 @@
         android:padding="@dimen/editTextPadding"
         android:text="The colorful app!"
         android:textColor="@color/primaryDarkColor"
-        android:textSize="20sp"
+        android:textSize="@dimen/fontSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.54"
@@ -23,8 +23,8 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="105dp"
-        android:layout_height="52dp"
+        android:layout_width="@dimen/textViewWidth"
+        android:layout_height="@dimen/height"
         android:layout_marginTop="@dimen/buttonPadding"
         android:padding="@dimen/editTextPadding"
         android:text="Go!"
@@ -36,17 +36,28 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="218dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginBottom="452dp"
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/height"
+        android:layout_marginStart="@dimen/topMargin"
+        android:layout_marginBottom="@dimen/bottomMargin"
         android:ems="10"
         android:hint="What is your name, user?"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
+        android:minHeight="@dimen/height"
         android:padding="@dimen/topPadding"
         android:textColorHint="@color/primaryDarkColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/textViewWidth"
+        android:layout_height="@dimen/height"
+        android:layout_marginTop="@dimen/topMargin"
+        android:layout_marginEnd="@dimen/screenMargin"
+        android:text="Hello!"
+        android:textColor="@color/secondaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

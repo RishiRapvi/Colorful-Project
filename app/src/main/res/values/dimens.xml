@@ -4,8 +4,10 @@
     <dimen name="textViewHeight">200dp</dimen>
     <dimen name="editTextWidth">300dp</dimen>
     <dimen name="editTextHeight">600dp</dimen>
-    <dimen name="bottomMargin">20dp</dimen>
-    <dimen name="screenMargin">15dp</dimen>
+    <dimen name="height">50dp</dimen>
+    <dimen name="topMargin">90dp</dimen>
+    <dimen name="bottomMargin">450dp</dimen>
+    <dimen name="screenMargin">125dp</dimen>
     <dimen name="topPadding">10dp</dimen>
     <dimen name="editTextPadding">10dp</dimen>
     <dimen name="buttonPadding">300dp</dimen>
